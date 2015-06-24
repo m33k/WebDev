@@ -2,14 +2,37 @@
 	<head>
 		<title>Tables!!!</title>
 		<style>
-			h1 {
+			body {
+				margin: 0;
+			}
+			header{
+				margin: 0;
 				background-color: black;
+			}
+			nav {
+				background-color: black;
+				color: white;
+				
+			}
+
+			ul li {
+				display: inline-block;
+
+
+			}
+			h1 {
 				color:white;
+				margin: 0;
+
+
+			}
+
+			p {
+				margin: 0;
 			}
 			table {
 				border: 5px blue outset;
 				box-shadow:4px 6px;
-
 
 			}
 			tr td {
@@ -20,9 +43,19 @@
 		</style>
 	</head>
 	<body>
-		<h1>Music Tracker</h1>
+		<header>
+			<h1>Music Tracker</h1>
+		<nav>
+			<ul>
+				<li>Artist</li>
+				<li>Genre</li>
+				<li>Songs</li>
+				<li>Favorites</li>
+			</ul>
+			
+		</nav>
+		</header>
 		<p>The source for keeping up to date with your favorite genre.</p>
-		<!--Start of Table. Pure Content no style. Tomorrow I will style-->
 		<table>
 			<th>Name</th><th>Age</th><th>Favorite Music Genre</th>
 			<tr>
