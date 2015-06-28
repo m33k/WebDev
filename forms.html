@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <html>
 	<head>
 		<title>Sign Up Today!</title>
@@ -20,14 +21,23 @@
 			opacity: 0.9;
 			border: 3px solid black;
 			border-radius: 10px;
+			box-shadow: 5px 6px black;
 			text-align: center;
 			width: 300px;
 			margin-left: auto;
 			margin-right: auto;
 			position: relative;
 			top: 160px;
-			padding: 10px;
+			padding: 5px 0px;
 
+		}
+		form h3 {
+			background-color: blue;
+			color: white;
+		}
+		form p {
+			line-height: 15px;
+			padding: 1px;
 		}
 		p:hover {
 			color: blue;
@@ -41,9 +51,10 @@
 		</div>
 			vertical line -->
 		<form>
-			<p>Firstname</p> </br>
-			<input type="text" name="firstname"> 
-			<p>Lastname</p> </br>
+			<h3>Sign Up!</h3>
+			<p>Firstname</p> <br>
+			<input type="text" name="firstname">
+			<p>Lastname</p> <br>
 			<input type="text" name="lastname">
 			<p>eMail</p> <br>
 			<input type="email" name="email">
@@ -53,7 +64,7 @@
 			<br>
 			<input type="submit" value="Submit Form">
 		</form>
-	<!--Note to self: Add styles to form. Background, center the form, and nice opacity and add borders-->
+	<!--Note to self: Add a button that sign up and setup css so upon click it shows the sign up box.-->
 
 	</body>
 </html>
