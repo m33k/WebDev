@@ -3,11 +3,53 @@
 	<head>
 		<title>Get Your Ducks in a Row</title>
 	<style>
-	
+	h1, p{
+		text-align: center;
+	}
+	.centerfeed {
+		position: relative;
+		margin: 200px;
+	}
+		#left {
+			border: 3px solid black;
+			width: 100px;
+			height: 100px;
+			float: left;
+			text-align: center;
+		}
+		#center {
+			border: 3px solid black;
+			width: 100px;
+			height: 100px;
+			margin-left: auto;
+			margin-right: auto;
+			text-align: center;
+
+		
+
+
+		}
+		#right {
+			border: 3px solid black;
+			width: 100px;
+			height: 100px;
+			float: right;
+			position: relative;
+			bottom:105px;
+			text-align: center;
+		}
 	</style>
 	</head>
 	<body>
-	
+		<header>
+			<h1>Post and Lint Designed</h1>
+			<p>I'm kidding... These are just post</p>
+		</header>
+		<div class="centerfeed">
+			<div id="left">Left</div>
+			<div id="center">Center</div>
+			<div id="right">Right</div>
+		</div>
 	<!--Aligning everything in a row.-->
 	</body>
 </html>
