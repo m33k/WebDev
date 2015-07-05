@@ -2,57 +2,73 @@
 <html>
 	<head>
 		<title>Get Your Ducks in a Row</title>
-	<style>
-	body {
-		margin: 0;
-	}
-	h1, p{
-		text-align: center;
-		font-family: sans-serif;
-	}
-	header {
-		background-color: #666;
-	}
-	header p {
-		font-family: serif;
-	}
-	.centerfeed {
-			position: relative;
-			top: 40px;
-			padding: 10px;
-			background-color: #999;
+		<style>
+			body {
+				margin: 0;
+			}
+			header h1 {
+				background-color: white;
+				margin: 3;
 
-	
-	}
-		#left {
-			border: 3px solid black;
-			width: 250px;
-			height: 200px;
-			float: left;
-			text-align: center;
-		}
-		#center {
-			border: 3px solid black;
-			width: 250px;
-			height: 200px;
-			margin-left: auto;
-			margin-right: auto;
-			text-align: center;
-		}
-		#right {
-			border: 3px solid black;
-			width: 250px;
-			height: 200px;
-			float: right;
-			position: relative;
-			bottom: 205px;
-			text-align: center;
-		}
-		.scrollfeed {
-			background-color: #333;
-			height: 200px;
-		}
-	</style>
+			}
+			h1, p{
+				text-align: center;
+				font-family: sans-serif;
+				margin: 3px;
+			}
+			header p {
+				font-family: serif;
+			}
+			.centerfeed {
+					position: relative;
+					top: 0px;
+					padding: 10px;
+					background-color: orange;
+					clear: both;
+				/*	margin: 1px 0px I may not use the margin here*/
+			}
+				#left {
+					border: 3px solid black;
+					width: 250px;
+					height: 200px;
+					float: left;
+					text-align: center;
+				}
+				.vertical {
+					border-left: thick #fff;
+				}
+				#center {
+					border: 3px solid black;
+					width: 250px;
+					height: 200px;
+					margin-left: auto;
+					margin-right: auto;
+					text-align: center;
+				}
+				#right {
+					border: 3px solid black;
+					width: 250px;
+					height: 200px;
+					float: right;
+					position: relative;
+					bottom: 205px;
+					text-align: center;
+				}
+				.bottom {
+					background-color: navy;
+					height: 318px;
+				}
+				#finalwords {
+					position: absolute;
+					left:535px;
+					bottom: 190px;
+					color: white;
+					font-family: sans-serif;
+					font-size: 20px;
+
+				}
+		
+		</style>
 	</head>
 	<body>
 		<header>
@@ -61,18 +77,19 @@
 		</header>
 		<div class="centerfeed">
 			<div id="left">Left
-			<p>Some Text 1</p>
+			<p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia.</p>
 			</div>
+			<div class="vertical"></div>
 			<div id="center">Center
-				<p>Some Text 2</p>
+				<p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia.</p>
 			</div>
 			<div id="right">Right
-				<p>Some Text 3</p>
+				<p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia.</p>
 			</div>
 		</div>
-		<div class="scrollfeed">
-			<p id="scroll">Scrolling feed content</p>
+		<div class="bottom">
+			<div id="finalwords">Bottom Section Display</div>
 		</div>
-	<p>Test</p>
+	
 	</body>
 </html>
