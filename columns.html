@@ -3,9 +3,15 @@
 	<head>
 		<title>Get Your Ducks in a Row</title>
 	<style>
+	body {
+		margin: 0;
+	}
 	h1, p{
 		text-align: center;
 		font-family: sans-serif;
+	}
+	header {
+		background-color: #666;
 	}
 	header p {
 		font-family: serif;
@@ -13,7 +19,9 @@
 	.centerfeed {
 			position: relative;
 			top: 40px;
-			padding: 10px;	
+			padding: 10px;
+			background-color: #999;
+
 	
 	}
 		#left {
@@ -40,6 +48,10 @@
 			bottom: 205px;
 			text-align: center;
 		}
+		.scrollfeed {
+			background-color: #333;
+			height: 200px;
+		}
 	</style>
 	</head>
 	<body>
@@ -58,7 +70,9 @@
 				<p>Some Text 3</p>
 			</div>
 		</div>
-	
-	
+		<div class="scrollfeed">
+			<p id="scroll">Scrolling feed content</p>
+		</div>
+	<p>Test</p>
 	</body>
 </html>
